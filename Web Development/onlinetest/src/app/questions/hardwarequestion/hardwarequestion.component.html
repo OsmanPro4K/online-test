@@ -1,0 +1,14 @@
+<div class="hardware-questions">
+    <h1 class="question">What field do you want to choose?</h1>
+    <div class="answers">
+      <button class="network-btn" (click)="setActiveButton('network')" [ngClass]="{'active': activeButton === 'network'}">
+        <i class="fa-solid fa-network-wired"></i> Network
+      </button>
+      <button class="mechanic-btn" (click)="setActiveButton('mechanic')" [ngClass]="{'active': activeButton === 'mechanic'}">
+        <i class="fa-solid fa-tools"></i> Mechanic
+      </button>
+      <button class="support-btn" (click)="setActiveButton('support')" [ngClass]="{'active': activeButton === 'support'}">
+        <i class="fa-solid fa-hands-helping"></i> Support
+      </button>
+    </div>
+</div>
