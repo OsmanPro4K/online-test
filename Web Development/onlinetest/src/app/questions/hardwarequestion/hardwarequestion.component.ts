@@ -7,7 +7,10 @@ import { Component } from '@angular/core';
 })
 export class HardwarequestionComponent {
   activeButton: string = '';
-
+  notNeeded: string = "";
+  addHTML() {
+    this.notNeeded = "Candidates full!"
+  }
   setActiveButton(button: string) {
     this.activeButton = button;
   }

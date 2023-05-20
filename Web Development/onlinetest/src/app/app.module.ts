@@ -10,7 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SoftwarequestionComponent } from './questions/softwarequestion/softwarequestion.component';
 import { HardwarequestionComponent } from './questions/hardwarequestion/hardwarequestion.component';
-
+import { NetworkComponent } from './questions/hardwarequestion/network/network.component';
+import { TestcompletedComponent } from './testcompleted/testcompleted.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { HardwarequestionComponent } from './questions/hardwarequestion/hardware
     SelectionComponent,
     HomeComponent,
     SoftwarequestionComponent,
-    HardwarequestionComponent
+    HardwarequestionComponent,
+    NetworkComponent,
+    TestcompletedComponent
   ],
   imports: [
     BrowserModule,
